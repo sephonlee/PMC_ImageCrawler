@@ -19,10 +19,10 @@ Usage:
 ```
 
 ### Search images by keywords and download all return images
-** python PMCImageCrawler.py use_keyword metabolic+pathway path_to_chromedriver **
+#### python PMCImageCrawler.py use_keyword metabolic+pathway path_to_chromedriver
 Images and metadata will be saved in current_directory/data/
 
-** python PMCImageCrawler.py use_keyword metabolic+pathway path_to_chromedriver directory_of_output 5 **
+#### python PMCImageCrawler.py use_keyword metabolic+pathway path_to_chromedriver directory_of_output 5
 Start crawling from page 5 and the images and metadata will be saved in given directory
 
 ### Search images by keywords and download all return images
