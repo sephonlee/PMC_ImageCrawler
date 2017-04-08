@@ -98,7 +98,7 @@ if __name__ == '__main__':
         print "Metadata save in %s" %os.path.join(outpath, csvFilename + '.csv')
         print "Start crawling images from page %d" %page
         
-        header = ["pmid", "pmc_img_url", "filename", "img_title", "caption"]
+        header = ["pcmid", "pmc_img_url", "filename", "img_title", "caption"]
         saveCSV(outpath, csvFilename, header = header, mode = 'wb', consoleOut = False)
         while True:
             rslt = driver.find_elements_by_xpath("//div[contains(@class, 'rslt')]")
