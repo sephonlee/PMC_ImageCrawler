@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     path_chromedriver = "/Users/sephon/Desktop/Research/VizioMetrics/CrawlBot/chromedriver"
     csvFilename = 'metadata_'
-    outpath = "."
+    outpath = "./data/"
     page = 1
     url = None
     keyword = ""
@@ -76,6 +76,11 @@ if __name__ == '__main__':
 
     if arguments["use_url"]:
         url = url
+    
+    
+    if not (os.path.isdir(outpath)):
+        os.makedirs(outpath)
+    print "outpath", outpath
     
     if url is not None:
        
