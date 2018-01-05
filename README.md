@@ -1,6 +1,6 @@
 # PMC_ImageCrawler: Crawl figure images on PubMed Central server
 
-The repositoy contains a set of scripts to crawl figure images on PubMed Central by giving keywords or urls. This is a simple crawler using webdriver to go throught returned pages of PMC image search and extract metadata and corresponding figure images. 
+The repository contains a set of scripts to crawl figure images on PubMed Central by giving keywords or urls. This is a simple crawler using webdriver to go through returned pages of PMC image search and extract metadata and corresponding figure images. 
 
 ## Requirements
 
